@@ -20,21 +20,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: 20
+          bun-version: latest
 
       - name: Install dependencies
-        run: npm install
+        run: bun install
 
       - name: Build project
-        run: npm run build
+        run: bun run build
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # 若打包產出目錄不是 dist（例如是 build 或 out），請相應修改此處
+          path: ./dist # 若打包產出目錄不是 dist，請相應修改此處
 
   deploy:
     environment:
