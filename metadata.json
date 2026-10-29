@@ -1,0 +1,8 @@
+{
+  "name": "找找台灣鏡頭君 — Taiwan Live Cam Explorer",
+  "description": "探索全台即時觀光影像、3D 互動立體地圖、YouTube 直播鏡頭與 GPS 實地旅行護照打卡系統。",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

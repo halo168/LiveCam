@@ -1,0 +1,850 @@
+[
+  {
+    "attractionId": "attr-taipei-101-xiangshan",
+    "name": "象山看台北 (台北101天際線)",
+    "city": "台北市信義區",
+    "region": "north",
+    "latitude": 25.0273,
+    "longitude": 121.5705,
+    "coordinateSource": "台北市政府觀光傳播局官方觀景台",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "city",
+    "cameraIds": [
+      "cam-uvwfYzwY8tg",
+      "cam-z_fY1pj1VBw"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-dadaocheng-wharf",
+    "name": "大稻埕碼頭",
+    "city": "台北市大同區",
+    "region": "north",
+    "latitude": 25.0569,
+    "longitude": 121.5074,
+    "coordinateSource": "台北市水利處碼頭公告座標",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "port",
+    "cameraIds": [
+      "cam-Ndo_8RuefH4"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 600
+  },
+  {
+    "attractionId": "attr-jiantanshan",
+    "name": "劍潭山微風平台",
+    "city": "台北市士林區",
+    "region": "north",
+    "latitude": 25.0841,
+    "longitude": 121.5284,
+    "coordinateSource": "台北市工務局大地工程處觀景台座標",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-34h_Cy_n0Ok"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 700
+  },
+  {
+    "attractionId": "attr-dajia-riverside",
+    "name": "大佳河濱公園",
+    "city": "台北市中山區",
+    "region": "north",
+    "latitude": 25.0745,
+    "longitude": 121.5362,
+    "coordinateSource": "台北市基隆河河濱公園管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "city",
+    "cameraIds": [
+      "cam-fP4ecxfsJos"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-maokong-zhinan",
+    "name": "貓空指南宮",
+    "city": "台北市文山區",
+    "region": "north",
+    "latitude": 24.9786,
+    "longitude": 121.5901,
+    "coordinateSource": "指南宮文化園區地籍圖",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "temple",
+    "cameraIds": [
+      "cam-215ahZ_0rTg"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-yangmingshan",
+    "name": "陽明山國家公園 (冷水坑 / 小油坑 / 七星山)",
+    "city": "台北市北投區",
+    "region": "north",
+    "latitude": 25.1668,
+    "longitude": 121.5622,
+    "coordinateSource": "內政部國家公園署地理資訊網",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-GB64WeZZQPQ",
+      "cam-PvJr2efA6n0",
+      "cam-kKD-ZBLs8-4",
+      "cam-RttyIGHbN_w",
+      "cam-6ghffcNt3Nw"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-hunglodei",
+    "name": "中和烘爐地南山福德宮",
+    "city": "新北市中和區",
+    "region": "north",
+    "latitude": 24.9602,
+    "longitude": 121.4988,
+    "coordinateSource": "新北市觀光旅遊局景點導覽",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "temple",
+    "cameraIds": [
+      "cam-xxMRjVwCQ3o"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-bali-leftbank",
+    "name": "八里左岸自行車道海潮",
+    "city": "新北市八里區",
+    "region": "north",
+    "latitude": 25.1611,
+    "longitude": 121.4358,
+    "coordinateSource": "新北市政府高灘地工程管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-di-4DCblWq4"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-danjiang-bridge",
+    "name": "淡江大橋施工與淡水河口",
+    "city": "新北市淡水區",
+    "region": "north",
+    "latitude": 25.1764,
+    "longitude": 121.4192,
+    "coordinateSource": "交通部公路局西部濱海公路北區臨時工程處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-Nz9-_x5ecWc"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-taoyuan-airport",
+    "name": "桃園國際機場 (跑道與航機起降)",
+    "city": "桃園市大園區",
+    "region": "north",
+    "latitude": 25.0797,
+    "longitude": 121.2342,
+    "coordinateSource": "民用航空局桃園國際機場基準點",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "station",
+    "cameraIds": [
+      "cam-y3_x8el5ZJY",
+      "cam-wWEnxWA7nnY",
+      "cam-0D6QgDOdI6c",
+      "cam-68GFgzQxrXs",
+      "cam-91PfFoqvuUk"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 2000
+  },
+  {
+    "attractionId": "attr-yongan-port",
+    "name": "永安漁港海螺文化體驗園區",
+    "city": "桃園市新屋區",
+    "region": "north",
+    "latitude": 24.9892,
+    "longitude": 121.0185,
+    "coordinateSource": "桃園市政府觀光旅遊局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "port",
+    "cameraIds": [
+      "cam-tD_a03trUvE"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-shihmen-reservoir",
+    "name": "石門水庫風景區",
+    "city": "桃園市大溪區",
+    "region": "north",
+    "latitude": 24.8152,
+    "longitude": 121.2465,
+    "coordinateSource": "經濟部水利署北區水資源分署",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "lake",
+    "cameraIds": [
+      "cam-GUCaVR88ZFU"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-daxi-historic",
+    "name": "大溪老街與大溪橋",
+    "city": "桃園市大溪區",
+    "region": "north",
+    "latitude": 24.8845,
+    "longitude": 121.2872,
+    "coordinateSource": "桃園市大溪木藝生態博物館地理資訊",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "city",
+    "cameraIds": [
+      "cam-XUWjAsajKXg",
+      "cam-oFJ6gCaBb_Q"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-jiaobanshan",
+    "name": "角板山行館 (梅園與生態池)",
+    "city": "桃園市復興區",
+    "region": "north",
+    "latitude": 24.8198,
+    "longitude": 121.3524,
+    "coordinateSource": "桃園市風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-XEbo8NzMTbQ",
+      "cam--xT1bZhWLuU",
+      "cam-3Za9y4z_Lzc"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-hutoushan",
+    "name": "虎頭山環保公園與奧爾森林學堂",
+    "city": "桃園市桃園區",
+    "region": "north",
+    "latitude": 25.0082,
+    "longitude": 121.3285,
+    "coordinateSource": "桃園市政府風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "city",
+    "cameraIds": [
+      "cam-tu_gsIkNt-w",
+      "cam-yQSmajHyMhU"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-xiaowulai",
+    "name": "小烏來天空步道與三龜戲水",
+    "city": "桃園市復興區",
+    "region": "north",
+    "latitude": 24.7915,
+    "longitude": 121.3752,
+    "coordinateSource": "桃園市政府觀光旅遊局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-5YDXZ1aiR5Y",
+      "cam-neaiCec1kec"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-lala-mountain",
+    "name": "拉拉山巨木區與上巴陵",
+    "city": "桃園市復興區",
+    "region": "north",
+    "latitude": 24.7215,
+    "longitude": 121.4112,
+    "coordinateSource": "林業及自然保育署新竹分署",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-YkIUZjVlhv4",
+      "cam-nV-DKquUjFs"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-cihu",
+    "name": "慈湖水岸紀念雕塑公園",
+    "city": "桃園市大溪區",
+    "region": "north",
+    "latitude": 24.8415,
+    "longitude": 121.2985,
+    "coordinateSource": "桃園市政府風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "lake",
+    "cameraIds": [
+      "cam-pSQ0e-ZTZ5g",
+      "cam-SR-6i6S8plg"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-taoyuan-temples",
+    "name": "桃園市古剎祈福 (蓮華寺 / 慈護宮)",
+    "city": "桃園市桃園區",
+    "region": "north",
+    "latitude": 24.9925,
+    "longitude": 121.3095,
+    "coordinateSource": "桃園民政局宗教古蹟登記",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "temple",
+    "cameraIds": [
+      "cam-tQ5L2IMHjpM",
+      "cam-Cfh_CpU2KY0",
+      "cam-AYSoD5o_9uo"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 600
+  },
+  {
+    "attractionId": "attr-emei-lake",
+    "name": "新竹峨眉湖彌勒大佛",
+    "city": "新竹縣峨眉鄉",
+    "region": "north",
+    "latitude": 24.6852,
+    "longitude": 120.9855,
+    "coordinateSource": "交通部觀光署參山國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "lake",
+    "cameraIds": [
+      "cam-AE1wiaqDZjw"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-wanggaoliao",
+    "name": "台中望高寮夜景公園",
+    "city": "台中市南屯區",
+    "region": "central",
+    "latitude": 24.1485,
+    "longitude": 120.5815,
+    "coordinateSource": "台中市政府建設局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "city",
+    "cameraIds": [
+      "cam-lhXXhDyjFtI"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-gaomei-wetland",
+    "name": "台中高美濕地風車木棧道",
+    "city": "台中市清水區",
+    "region": "central",
+    "latitude": 24.3122,
+    "longitude": 120.5492,
+    "coordinateSource": "台中市政府農業局高美野生動物保護區",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-fjhg3gAnMFg"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-techi-dam",
+    "name": "梨山德基水庫與佳陽沖積扇",
+    "city": "台中市和平區",
+    "region": "central",
+    "latitude": 24.2562,
+    "longitude": 121.1618,
+    "coordinateSource": "台灣電力公司德基發電廠",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "lake",
+    "cameraIds": [
+      "cam-ZayKvJKDPWc"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-baguashan",
+    "name": "彰化八卦山大佛與彰化平原",
+    "city": "彰化縣彰化市",
+    "region": "central",
+    "latitude": 24.0805,
+    "longitude": 120.5512,
+    "coordinateSource": "彰化縣政府城觀處八卦山風景區",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-RaTbGYKMUtk"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-hehuanshan-wuling",
+    "name": "合歡山武嶺亭 (海拔 3275M 台灣公路最高點)",
+    "city": "南投縣仁愛鄉",
+    "region": "central",
+    "latitude": 24.1373,
+    "longitude": 121.2758,
+    "coordinateSource": "太魯閣國家公園與公路局中區養護工程分局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-Jx01B71j0wc",
+      "cam-BiBNiJAW3dY",
+      "cam-2lVMTs_Fj0M"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-alishan",
+    "name": "阿里山國家風景區 (二延平步道 / 太平雲梯 / 生力農場)",
+    "city": "嘉義縣阿里山鄉",
+    "region": "central",
+    "latitude": 23.4243,
+    "longitude": 120.6558,
+    "coordinateSource": "交通部觀光署阿里山國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-agEzlv9n9Eg",
+      "cam-hMYs60qtkK8",
+      "cam-8KnqJBf_dow",
+      "cam-dY2cRNr5Buw",
+      "cam-zDt8FBPozZQ",
+      "cam-j2L_559nCjc"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-siraya",
+    "name": "西拉雅國家風景區 (曾文水庫 / 火山碧雲寺 / 二寮觀日)",
+    "city": "台南市白河區",
+    "region": "south",
+    "latitude": 23.3364,
+    "longitude": 120.4939,
+    "coordinateSource": "西拉雅國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "lake",
+    "cameraIds": [
+      "cam-zkX6X9p-6iA",
+      "cam-EH4V8IwFIp4",
+      "cam-xbojeDKjcaM"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-tainan-goldcoast",
+    "name": "台南黃金海岸",
+    "city": "台南市南區",
+    "region": "south",
+    "latitude": 22.9245,
+    "longitude": 120.1765,
+    "coordinateSource": "台南市政府觀光旅遊局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-uCXgNUJO9e8"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-shoushan-lovers",
+    "name": "高雄壽山情人觀景台",
+    "city": "高雄市鼓山區",
+    "region": "south",
+    "latitude": 22.6288,
+    "longitude": 120.2743,
+    "coordinateSource": "高雄市政府觀光局觀景台地標",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "city",
+    "cameraIds": [
+      "cam-C03Itx8iSC0"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-cijin-beach",
+    "name": "高雄旗津海水浴場",
+    "city": "高雄市旗津區",
+    "region": "south",
+    "latitude": 22.6105,
+    "longitude": 120.2672,
+    "coordinateSource": "高雄市政府觀光局旗津海岸公園",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-ka7FV0sCvxQ"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-lianchihtan",
+    "name": "高雄左營蓮池潭",
+    "city": "高雄市左營區",
+    "region": "south",
+    "latitude": 22.6844,
+    "longitude": 120.2974,
+    "coordinateSource": "高雄市政府觀光局蓮池潭景區",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "lake",
+    "cameraIds": [
+      "cam-BnPoNatG-HE"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-kenting-coral",
+    "name": "墾丁南灣核三廠海底珊瑚觀測",
+    "city": "屏東縣恆春鎮",
+    "region": "south",
+    "latitude": 21.9568,
+    "longitude": 120.7512,
+    "coordinateSource": "台電南灣海域珊瑚觀測計畫定位點",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-BggLWTcLixM",
+      "cam-oMlSukuxtHw",
+      "cam-2GzIYf-I5kM",
+      "cam-2dyGcIYbJa8"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-duoliang-station",
+    "name": "台東多良車站 (全台最美海岸車站)",
+    "city": "台東縣太麻里鄉",
+    "region": "east",
+    "latitude": 22.5065,
+    "longitude": 120.9599,
+    "coordinateSource": "台東縣政府太麻里鄉公所觀光導覽",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "station",
+    "cameraIds": [
+      "cam-UCG1aXVO8H8"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-jinlun-bridge",
+    "name": "台東金崙大橋 (太平洋濱海巨龍)",
+    "city": "台東縣太麻里鄉",
+    "region": "east",
+    "latitude": 22.5298,
+    "longitude": 120.9678,
+    "coordinateSource": "公路局南區養護工程分局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-9QqBz3kNHis"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-luye-highland",
+    "name": "台東鹿野高台 (熱氣球嘉年華)",
+    "city": "台東縣鹿野鄉",
+    "region": "east",
+    "latitude": 22.9142,
+    "longitude": 121.1189,
+    "coordinateSource": "花東縱谷國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-rvc1klNIgQc"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-chihshang",
+    "name": "台東池上天堂路與伯朗大道",
+    "city": "台東縣池上鄉",
+    "region": "east",
+    "latitude": 23.1077,
+    "longitude": 121.2212,
+    "coordinateSource": "池上鄉公所觀光文化資訊",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-6kUEK3LVrro"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-fugang-port",
+    "name": "台東富岡漁港",
+    "city": "台東縣台東市",
+    "region": "east",
+    "latitude": 22.7915,
+    "longitude": 121.1942,
+    "coordinateSource": "台東縣政府農業處水產造林科",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "port",
+    "cameraIds": [
+      "cam-D945F_dauls"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-liushishi",
+    "name": "花蓮六十石山金針花海",
+    "city": "花蓮縣富里鄉",
+    "region": "east",
+    "latitude": 23.2201,
+    "longitude": 121.3142,
+    "coordinateSource": "花東縱谷國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-DliL9uMtPrI"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-torik",
+    "name": "東海岸都歷遊客中心",
+    "city": "台東縣成功鎮",
+    "region": "east",
+    "latitude": 23.0255,
+    "longitude": 121.3288,
+    "coordinateSource": "東部海岸國家風景區管理處本部",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-JhQuR77AR7U"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-jialulan",
+    "name": "東海岸加路蘭遊憩區",
+    "city": "台東縣台東市",
+    "region": "east",
+    "latitude": 22.8085,
+    "longitude": 121.1965,
+    "coordinateSource": "東部海岸國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-AKl3F6cAY2Q"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-shitiping",
+    "name": "東海岸石梯坪海蝕壺穴",
+    "city": "花蓮縣豐濱鄉",
+    "region": "east",
+    "latitude": 23.4862,
+    "longitude": 121.5125,
+    "coordinateSource": "東部海岸國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-mXnigLvIL0Q"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-jinzun",
+    "name": "台東金樽國際衝浪海灣",
+    "city": "台東縣東河鄉",
+    "region": "east",
+    "latitude": 22.9556,
+    "longitude": 121.2882,
+    "coordinateSource": "東部海岸國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-ZdqHgQwvZOw",
+      "cam-q3KJt-SZc2s"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1100
+  },
+  {
+    "attractionId": "attr-yakou",
+    "name": "南橫公路埡口 (大關山隧道 2722m)",
+    "city": "台東縣海端鄉",
+    "region": "east",
+    "latitude": 23.2598,
+    "longitude": 120.9582,
+    "coordinateSource": "公路局第三區養護工程分局",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-LSkq-wHMxQY"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 800
+  },
+  {
+    "attractionId": "attr-huayuan",
+    "name": "台東華源曙光觀景台 (天空之鏡)",
+    "city": "台東縣太麻里鄉",
+    "region": "east",
+    "latitude": 22.6642,
+    "longitude": 121.0315,
+    "coordinateSource": "台東縣政府農業處水保科",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-TY4qQElcUrA"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-shanyuan",
+    "name": "台東杉原灣海水浴場 (富山潮間帶)",
+    "city": "台東縣卑南鄉",
+    "region": "east",
+    "latitude": 22.8272,
+    "longitude": 121.1878,
+    "coordinateSource": "台東縣政府交通及觀光發展處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-VqS_Y8ZCj6M"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-changhong-bridge",
+    "name": "東海岸長虹橋 (秀姑巒溪泛舟終點)",
+    "city": "花蓮縣豐濱鄉",
+    "region": "east",
+    "latitude": 23.4682,
+    "longitude": 121.4985,
+    "coordinateSource": "東部海岸國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-JnD8Rk3o0BM"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  },
+  {
+    "attractionId": "attr-dashibi-hill",
+    "name": "東海岸大石鼻山步道",
+    "city": "花蓮縣豐濱鄉",
+    "region": "east",
+    "latitude": 23.7088,
+    "longitude": 121.5541,
+    "coordinateSource": "東部海岸國家風景區管理處磯崎遊憩區",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-JkoXcXI04Qk"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 900
+  },
+  {
+    "attractionId": "attr-green-island",
+    "name": "綠島南寮漁港與石朗潛水區",
+    "city": "台東縣綠島鄉",
+    "region": "islands",
+    "latitude": 22.6645,
+    "longitude": 121.4788,
+    "coordinateSource": "東部海岸國家風景區管理處綠島管理站",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "port",
+    "cameraIds": [
+      "cam-wTHhv7M0vCI"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-chike-mountain",
+    "name": "花蓮赤科山金針花園區",
+    "city": "花蓮縣玉里鎮",
+    "region": "east",
+    "latitude": 23.3855,
+    "longitude": 121.3852,
+    "coordinateSource": "花東縱谷國家風景區管理處",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "mountain",
+    "cameraIds": [
+      "cam-5GTFLN9gZrc"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1500
+  },
+  {
+    "attractionId": "attr-qixingtan",
+    "name": "花蓮七星潭月牙灣",
+    "city": "花蓮縣新城鄉",
+    "region": "east",
+    "latitude": 24.0322,
+    "longitude": 121.6293,
+    "coordinateSource": "花蓮縣政府觀光處風景區地標",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "coast",
+    "cameraIds": [
+      "cam-j3l32VFi5M8",
+      "cam-qg-aHp2mvS8"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1200
+  },
+  {
+    "attractionId": "attr-matsu-beigan",
+    "name": "馬祖北竿航空站",
+    "city": "連江縣北竿鄉",
+    "region": "islands",
+    "latitude": 26.2238,
+    "longitude": 119.9982,
+    "coordinateSource": "交通部民用航空局北竿航空站",
+    "coordinateAccuracy": "exact",
+    "landmarkType": "station",
+    "cameraIds": [
+      "cam-EaUVZ49xKQ4"
+    ],
+    "checkinEnabled": true,
+    "checkinRadiusMeters": 1000
+  }
+]
