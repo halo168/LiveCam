@@ -1,10 +1,8 @@
-name: Deploy Taiwan Live Cam Explorer to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch:
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -12,32 +10,31 @@ permissions:
   id-token: write
 
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
-      - name: Build application
+      - name: Build project
         run: npm run build
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./dist # 若打包產出目錄不是 dist（例如是 build 或 out），請相應修改此處
 
   deploy:
     environment:
