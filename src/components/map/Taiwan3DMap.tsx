@@ -204,7 +204,7 @@ export const Taiwan3DMap: React.FC<Taiwan3DMapProps> = ({
     cameraRef.current = camera;
 
     // 改為綁定 container，能完整接收滑鼠滾輪與手機雙指捏合手勢
-    const controls = new OrbitControls(camera, container);
+    const controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
     controls.dampingFactor = 0.08;        // 提高阻尼滑順感
     controls.enableZoom = true;           // 明確啟用滾輪/雙指縮放
@@ -614,29 +614,6 @@ export const Taiwan3DMap: React.FC<Taiwan3DMapProps> = ({
       const is2D = is2DRef.current;
       const selectedId = selectedAttractionIdRef.current;
 
-      if (is2D) {
-        _targetPos.set(0, 16.5, 0.001);
-        _targetLookAt.set(0, 0, 0);
-        controls.enableRotate = false;
-      } else if (selectedId && pinMeshesRef.current.has(selectedId)) {
-        const targetMarker = pinMeshesRef.current.get(selectedId)!;
-        _tempVec3.setFromMatrixPosition(targetMarker.matrixWorld);
-        _targetLookAt.copy(_tempVec3);
-        _targetPos.set(_tempVec3.x - 1.2, _tempVec3.y + 4.2, _tempVec3.z + 4.8);
-        controls.enableRotate = true;
-      } else {
-        controls.enableRotate = true;
-      }
-
-      if (is2D || selectedId) {
-        camera.position.x = THREE.MathUtils.damp(camera.position.x, _targetPos.x, 3.5, delta);
-        camera.position.y = THREE.MathUtils.damp(camera.position.y, _targetPos.y, 3.5, delta);
-        camera.position.z = THREE.MathUtils.damp(camera.position.z, _targetPos.z, 3.5, delta);
-
-        controls.target.x = THREE.MathUtils.damp(controls.target.x, _targetLookAt.x, 4.0, delta);
-        controls.target.y = THREE.MathUtils.damp(controls.target.y, _targetLookAt.y, 4.0, delta);
-        controls.target.z = THREE.MathUtils.damp(controls.target.z, _targetLookAt.z, 4.0, delta);
-      }
 
       controls.update();
 
@@ -680,34 +657,43 @@ export const Taiwan3DMap: React.FC<Taiwan3DMapProps> = ({
   }, [attractions]);
 
   // Screen control action handlers
-  const handleMoveNorth = () => {
-    if (!controlsRef.current) return;
-    controlsRef.current.target.z -= 0.85;
-    if (cameraRef.current) cameraRef.current.position.z -= 0.85;
-    controlsRef.current.update();
-  };
-
-  const handleMoveSouth = () => {
-    if (!controlsRef.current) return;
-    controlsRef.current.target.z += 0.85;
-    if (cameraRef.current) cameraRef.current.position.z += 0.85;
-    controlsRef.current.update();
-  };
-
-  const handleZoomIn = () => {
+// Screen control action handlers
+  const handleMoveNorth = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
     if (!controlsRef.current || !cameraRef.current) return;
-    // 使用 dollyIn 縮減相機距離，並同步推進 controls
-    controlsRef.current.dollyIn(1.4);
+    controlsRef.current.target.z -= 2.0;
+    cameraRef.current.position.z -= 2.0;
     controlsRef.current.update();
   };
 
-  const handleZoomOut = () => {
+  const handleMoveSouth = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
     if (!controlsRef.current || !cameraRef.current) return;
-    controlsRef.current.dollyOut(1.4);
+    controlsRef.current.target.z += 2.0;
+    cameraRef.current.position.z += 2.0;
     controlsRef.current.update();
   };
 
-  const handleResetCamera = () => {
+  const handleZoomIn = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
+    if (!controlsRef.current || !cameraRef.current) return;
+    const dir = new THREE.Vector3();
+    cameraRef.current.getWorldDirection(dir);
+    cameraRef.current.position.addScaledVector(dir, 2.5); // 直接沿鏡頭視線向前推進 2.5 單位
+    controlsRef.current.update();
+  };
+
+  const handleZoomOut = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
+    if (!controlsRef.current || !cameraRef.current) return;
+    const dir = new THREE.Vector3();
+    cameraRef.current.getWorldDirection(dir);
+    cameraRef.current.position.addScaledVector(dir, -2.5); // 沿視線向後退 2.5 單位
+    controlsRef.current.update();
+  };
+
+  const handleResetCamera = (e?: React.MouseEvent) => {
+    e?.stopPropagation();
     if (!controlsRef.current || !cameraRef.current) return;
     controlsRef.current.target.set(0, 0, 0);
     cameraRef.current.position.set(0, 10.5, 10.5);
