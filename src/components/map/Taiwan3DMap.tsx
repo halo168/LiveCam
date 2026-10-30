@@ -203,12 +203,17 @@ export const Taiwan3DMap: React.FC<Taiwan3DMapProps> = ({
     camera.position.set(0, 10.5, 10.5);
     cameraRef.current = camera;
 
-    const controls = new OrbitControls(camera, renderer.domElement);
+    // 改為綁定 container，能完整接收滑鼠滾輪與手機雙指捏合手勢
+    const controls = new OrbitControls(camera, container);
     controls.enableDamping = true;
-    controls.dampingFactor = 0.06;
+    controls.dampingFactor = 0.08;        // 提高阻尼滑順感
+    controls.enableZoom = true;           // 明確啟用滾輪/雙指縮放
+    controls.zoomSpeed = 1.2;             // 提升滾輪縮放靈敏度
+    controls.enablePan = true;            // 允許右鍵/雙指平移，操作更自由
+    controls.panSpeed = 0.8;
     controls.maxPolarAngle = Math.PI / 2.05;
-    controls.minDistance = 3.2;
-    controls.maxDistance = 28;
+    controls.minDistance = 2.0;           // 放寬最近距離，讓放大倍率更大
+    controls.maxDistance = 35.0;          // 放寬最遠距離，可縮至更小
     controls.target.set(0, 0, 0);
     controlsRef.current = controls;
 
@@ -691,13 +696,14 @@ export const Taiwan3DMap: React.FC<Taiwan3DMapProps> = ({
 
   const handleZoomIn = () => {
     if (!controlsRef.current || !cameraRef.current) return;
-    controlsRef.current.dollyIn(1.25);
+    // 使用 dollyIn 縮減相機距離，並同步推進 controls
+    controlsRef.current.dollyIn(1.4);
     controlsRef.current.update();
   };
 
   const handleZoomOut = () => {
     if (!controlsRef.current || !cameraRef.current) return;
-    controlsRef.current.dollyOut(1.25);
+    controlsRef.current.dollyOut(1.4);
     controlsRef.current.update();
   };
 
@@ -735,7 +741,7 @@ export const Taiwan3DMap: React.FC<Taiwan3DMapProps> = ({
 
   return (
     <div className="relative w-full h-full min-h-[540px] overflow-hidden rounded-2xl border border-white/10 shadow-2xl transition-all duration-300">
-      <div ref={mountRef} className="w-full h-full cursor-grab active:cursor-grabbing" />
+      <div ref={mountRef} className="w-full h-full cursor-grab active:cursor-grabbing touch-none" />
 
       {isLoading && (
         <div className="absolute inset-0 z-30 flex flex-col items-center justify-center bg-[#071B29]/90 text-white">
